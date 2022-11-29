@@ -70,9 +70,7 @@ fn main() {
     };
 
     match args.command {
-        Commands::Server => {
-            println!("Server");
-        }
+        Commands::Server => {}
         Commands::Rebuild => {
             println!("Rebuild");
         }
