@@ -1,0 +1,14 @@
+[package]
+name = "minikeyvaluer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.13.1"
+clap = { version = "4.0.26", features = ["derive"] }
+http = "0.2.8"
+leveldb = "0.8.6"
+md5 = "0.7.0"
+reqwest = {version="0.11.13",features=["blocking"]}
